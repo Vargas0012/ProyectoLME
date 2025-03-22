@@ -1,0 +1,92 @@
+
+    .parent {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        box-shadow: 0 10px 8px rgba(9, 9, 214, 0.1);
+    }
+    .div1, .div2 {
+        flex: 1 1 45%;
+        margin: 20px;
+    }
+
+    .container {
+        padding: 20px;
+        border: 1px solid black;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    label {
+        margin: 10px 0;
+    }
+
+    button{
+      margin: 10px 0;
+      width: 100%; 
+      max-width: 150px; 
+    }
+
+    input, textarea {
+     
+      width: 100%; 
+      max-width: 300px; 
+      background-color: rgba(255, 255, 255, 0.8); 
+  }
+    iframe {
+        width: 100%;
+        height: 300px;
+    }
+    footer {
+      width: 100%;
+        text-align: center;
+        margin-top: 10px;
+        padding: 5px 0;
+        background-color: rgba(255, 255, 255, 0.8); 
+    }
+
+    h1{
+      text-align: center;
+      font-family:'Lucida Sans Regular';
+    }
+
+   
+    .video-background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+
+    #pie{
+    font-family: Helvetica, sans-serif;
+    font-size: 9pt;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    }
+
+    a {
+      color: blue;
+      text-decoration: underline;
+  }
+  
+  a:visited {
+      color: black;
+  }
+
+    #redes{
+    padding: 15px;
+    margin: 0 auto;
+    }
+
+    hr{
+      border: 1px solid black;
+    }

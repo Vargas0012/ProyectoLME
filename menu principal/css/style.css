@@ -1,0 +1,190 @@
+
+body {
+    font-family: Helvetica, sans-serif;;
+    margin: 0;
+    padding: 0;
+    background-color: #e8d9c2 ;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+header {
+    background: #40708c ;
+    padding: 20px;
+    width: 100%;
+    position: center;
+}
+.logo {
+    font-size: 100px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-weight:bold;
+    margin:auto;
+}
+nav {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.menu-container {
+    background: #40708c ;
+    padding: 25px;
+    margin-top: 25px;
+    height: 30px;
+    border: 100px;
+    width: 100%;
+}
+.menu {
+    list-style: none;
+    margin: auto;
+    position: center;
+    display: flex;
+    justify-content: center;
+}
+nav ul {
+    list-style: none;
+    display: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    margin: 0 40px;
+}
+nav ul li a:hover {
+    color: red;
+}
+.imagenes{
+    background: #e8d9c2;
+    padding: 40px;
+    border: 100px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.imagenes img{
+    width:15%;
+    height: 100%;
+    object-fit: cover;
+    opacity: .9;
+    border-radius: 15px;
+    border: 2px solid rgba(255,255,255,0.684);
+    transition: all ease-in-out 0.5s;
+    border: 1px solid black;
+}
+.imagenes img:hover{
+    cursor: crosshair;
+    width: 40%;
+    opacity: 1;
+    filter: contrast(150%);
+}
+.main1{
+    background:#40708c;
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+    line-height: 30px;
+    color: white;
+    font-size: 30px;
+    width: 100%;
+}
+.estadio {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.estadio1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.estadio1 img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 1px solid black;
+    transition: all 0.5s ease-in-out;
+}
+
+.estadio1 img:hover {
+    cursor:crosshair;
+    width: 600px;
+    height: 450px;
+    opacity: 1;
+    filter: contrast(130%);
+}
+
+.contenido {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+}
+.box {
+    background: #40708c;
+    color: white;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+}
+section div a:hover {
+    color: red;
+    font-size: 20px;
+}
+
+footer {
+    background: #40708c;
+    color: white;
+    padding: 2%;
+    font-size: 18px;
+}
+
+
+.jugadores {
+    border: 1px solid black;
+    padding: 20px;
+    box-shadow: 2px 2px 10px rgba(16, 16, 16, 0.1);
+    width: 45%;
+    background-color: #dfc49b; 
+    border-radius: 5px;
+    backdrop-filter: blur(5px); 
+    margin: 0 auto; 
+    margin-bottom: 20px; 
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.jugadores h1 {
+    color: white; 
+}
+
+
+#pie{
+    font-family: Helvetica, sans-serif;
+    font-size: 9pt;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    }
+
+    #redes{
+        padding: 10px;
+        margin: 0 auto;
+        }
+    
+
